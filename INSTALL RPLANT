@@ -1,0 +1,362 @@
+0, 2013
+[4:20:04 PM] Kurt Michels: install.packages("rjson",dependencies=TRUE)
+[4:21:31 PM] Kurt Michels: RCurl
+[4:25:48 PM] geekypete: 
+* installing *source* package ‘XML’ ...
+** package ‘XML’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking for C compiler default output file name... rm: cannot remove 'a.out.dSYM': Is a directory
+a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for sed... /bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking for xml2-config... no
+Cannot find xml2-config
+ERROR: configuration failed for package ‘XML’
+* removing ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15/XML’
+* installing *source* package ‘RCurl’ ...
+** package ‘RCurl’ successfully unpacked and MD5 sums checked
+checking for curl-config... no
+Cannot find curl-config
+ERROR: configuration failed for package ‘RCurl’
+* removing ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15/RCurl’
+
+The downloaded source packages are in
+	‘/tmp/RtmpGDMUdG/downloaded_packages’
+Warning messages:
+1: In install.packages("RCurl", dependencies = TRUE) :
+  installation of package ‘XML’ had non-zero exit status
+2: In install.packages("RCurl", dependencies = TRUE) :
+  installation of package ‘RCurl’ had non-zero exit status
+>
+[4:32:31 PM] Kurt Michels: locate curl-config
+[4:32:55 PM] Kurt Michels: sudo apt-get install libcurl4-openssl-dev
+[4:38:13 PM] geekypete: sudo apt-get install libxml2-dev
+[4:39:59 PM] Kurt Michels: seqinr
+[4:40:23 PM] Kurt Michels: knitcitations
+[4:40:46 PM] Kurt Michels: knit
+[4:40:49 PM] Kurt Michels: knitr
+[4:41:43 PM] Kurt Michels: bibtex
+[4:45:28 PM] Kurt Michels: https://pods.iplantcollaborative.org/wiki/display/docs/Foundation+API+v1.0
+[4:49:49 PM] Kurt Michels: user.name <- "kamichels"
+[4:51:28 PM] Kurt Michels: user.pws <- "password"
+[4:53:36 PM] Kurt Michels: token <- GetToken(user.name,user.pwd,api="iplant")
+[4:56:08 PM] Kurt Michels: ListDir(user.name, token, "")
+[4:57:00 PM] Kurt Michels: ListDir(user.name, token, "data")
+[4:57:45 PM] Kurt Michels: ListDir(user.name, token, "data")
+[4:59:49 PM] Kurt Michels: ListDir(user.name, token, "analyses")
+[5:00:57 PM] Kurt Michels: help(ListDir)
+[5:01:44 PM] Kurt Michels: MakeDir(user.name, token, "data","")
+[5:03:06 PM] Kurt Michels: DeleteDir(user.name, token, "data","")
+[5:06:52 PM] geekypete: pl8210
+[5:34:09 PM] Kurt Michels: help(RunPLINK)
+[5:35:37 PM] Call from Kurt Michels, duration 01:34:11.
+0, 2013
+[4:20:04 PM] Kurt Michels: install.packages("rjson",dependencies=TRUE)
+[4:21:31 PM] Kurt Michels: RCurl
+[4:25:48 PM] geekypete: 
+* installing *source* package ‘XML’ ...
+** package ‘XML’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking for C compiler default output file name... rm: cannot remove 'a.out.dSYM': Is a directory
+a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for sed... /bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking for xml2-config... no
+Cannot find xml2-config
+ERROR: configuration failed for package ‘XML’
+* removing ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15/XML’
+* installing *source* package ‘RCurl’ ...
+** package ‘RCurl’ successfully unpacked and MD5 sums checked
+checking for curl-config... no
+Cannot find curl-config
+ERROR: configuration failed for package ‘RCurl’
+* removing ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15/RCurl’
+
+The downloaded source packages are in
+	‘/tmp/RtmpGDMUdG/downloaded_packages’
+Warning messages:
+1: In install.packages("RCurl", dependencies = TRUE) :
+  installation of package ‘XML’ had non-zero exit status
+2: In install.packages("RCurl", dependencies = TRUE) :
+  installation of package ‘RCurl’ had non-zero exit status
+>
+[4:32:31 PM] Kurt Michels: locate curl-config
+[4:32:55 PM] Kurt Michels: sudo apt-get install libcurl4-openssl-dev
+[4:38:13 PM] geekypete: sudo apt-get install libxml2-dev
+[4:39:59 PM] Kurt Michels: seqinr
+[4:40:23 PM] Kurt Michels: knitcitations
+[4:40:46 PM] Kurt Michels: knit
+[4:40:49 PM] Kurt Michels: knitr
+[4:41:43 PM] Kurt Michels: bibtex
+[4:45:28 PM] Kurt Michels: https://pods.iplantcollaborative.org/wiki/display/docs/Foundation+API+v1.0
+[4:49:49 PM] Kurt Michels: user.name <- "kamichels"
+[4:51:28 PM] Kurt Michels: user.pws <- "password"
+[4:53:36 PM] Kurt Michels: token <- GetToken(user.name,user.pwd,api="iplant")
+[4:56:08 PM] Kurt Michels: ListDir(user.name, token, "")
+[4:57:00 PM] Kurt Michels: ListDir(user.name, token, "data")
+[4:57:45 PM] Kurt Michels: ListDir(user.name, token, "data")
+[4:59:49 PM] Kurt Michels: ListDir(user.name, token, "analyses")
+[5:00:57 PM] Kurt Michels: help(ListDir)
+[5:01:44 PM] Kurt Michels: MakeDir(user.name, token, "data","")
+[5:03:06 PM] Kurt Michels: DeleteDir(user.name, token, "data","")
+[5:06:52 PM] geekypete: pl8210
+[5:34:09 PM] Kurt Michels: help(RunPLINK)
+[5:35:37 PM] Call from Kurt Michels, duration 01:34:11.
+
+R version 2.15.2 (2012-10-26) -- "Trick or Treat"
+Copyright (C) 2012 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> > options(STERM='iESS', str.dendrogram.last="'", editor='emacsclient', show.error.locations=TRUE)
+> require(rPlant)
+Loading required package: rPlant
+Warning message:
+In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘rPlant’
+> install.packages("rjson",dependencies=TRUE)
+Installing package(s) into ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15’
+(as ‘lib’ is unspecified)
+--- Please select a CRAN mirror for use in this session ---
+Loading Tcl/Tk interface ... done
+trying URL 'http://mirrors.nics.utk.edu/cran/src/contrib/rjson_0.2.12.tar.gz'
+Content type 'application/x-gzip' length 96906 bytes (94 Kb)
+opened URL
+==================================================
+downloaded 94 Kb
+
+* installing *source* package ‘rjson’ ...
+** package ‘rjson’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O2 -pipe -g  -c dump.cpp -o dump.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O2 -pipe -g  -c parser.c -o parser.o
+g++ -shared -o rjson.so dump.o parser.o -L/usr/lib/R/lib -lR
+installing to /home/geekypete/R/x86_64-pc-linux-gnu-library/2.15/rjson/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   ‘json_rpc_server.Rnw’ 
+** testing if installed package can be loaded
+
+* DONE (rjson)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGDMUdG/downloaded_packages’
+> install.packages("RCurl",dependencies=TRUE)
+Installing package(s) into ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15’
+(as ‘lib’ is unspecified)
+Warning: dependency ‘Rcompression’ is not available
+also installing the dependencies ‘bitops’, ‘XML’
+
+trying URL 'http://mirrors.nics.utk.edu/cran/src/contrib/bitops_1.0-5.tar.gz'
+Content type 'application/x-gzip' length 8518 bytes
+opened URL
+==================================================
+downloaded 8518 bytes
+
+trying URL 'http://mirrors.nics.utk.edu/cran/src/contrib/XML_3.98-1.1.tar.gz'
+Content type 'application/x-gzip' length 1582216 bytes (1.5 Mb)
+opened URL
+==================================================
+downloaded 1.5 Mb
+
+trying URL 'http://mirrors.nics.utk.edu/cran/src/contrib/RCurl_1.95-4.1.tar.gz'
+Content type 'application/x-gzip' length 870915 bytes (850 Kb)
+opened URL
+==================================================
+downloaded 850 Kb
+
+> install.packages("RCurl",dependencies=TRUE)
+Installing package(s) into ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15’
+(as ‘lib’ is unspecified)
+Warning: dependency ‘Rcompression’ is not available
+also installing the dependency ‘XML’
+
+trying URL 'http://mirrors.nics.utk.edu/cran/src/contrib/XML_3.98-1.1.tar.gz'
+Content type 'application/x-gzip' length 1582216 bytes (1.5 Mb)
+opened URL
+==================================================
+downloaded 1.5 Mb
+
+trying URL 'http://mirrors.nics.utk.edu/cran/src/contrib/RCurl_1.95-4.1.tar.gz'
+Content type 'application/x-gzip' length 870915 bytes (850 Kb)
+opened URL
+==================================================
+downloaded 850 Kb
+
+* installing *source* package ‘XML’ ...
+** package ‘XML’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking for C compiler default output file name... rm: cannot remove 'a.out.dSYM': Is a directory
+a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for sed... /bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking for xml2-config... no
+Cannot find xml2-config
+ERROR: configuration failed for package ‘XML’
+* removing ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15/XML’
+* installing *source* package ‘RCurl’ ...
+** package ‘RCurl’ successfully unpacked and MD5 sums checked
+checking for curl-config... no
+Cannot find curl-config
+ERROR: configuration failed for package ‘RCurl’
+* removing ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15/RCurl’
+
+The downloaded source packages are in
+	‘/tmp/RtmpGDMUdG/downloaded_packages’
+Warning messages:
+1: In install.packages("RCurl", dependencies = TRUE) :
+  installation of package ‘XML’ had non-zero exit status
+2: In install.packages("RCurl", dependencies = TRUE) :
+  installation of package ‘RCurl’ had non-zero exit status
+> install.packages("XML",dependencies=TRUE)
+Installing package(s) into ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘RCurl’
+
+trying URL 'http://mirrors.nics.utk.edu/cran/src/contrib/RCurl_1.95-4.1.tar.gz'
+Content type 'application/x-gzip' length 870915 bytes (850 Kb)
+opened URL
+==================================================
+downloaded 850 Kb
+
+trying URL 'http://mirrors.nics.utk.edu/cran/src/contrib/XML_3.98-1.1.tar.gz'
+Content type 'application/x-gzip' length 1582216 bytes (1.5 Mb)
+opened URL
+==================================================
+downloaded 1.5 Mb
+
+* installing *source* package ‘RCurl’ ...
+** package ‘RCurl’ successfully unpacked and MD5 sums checked
+checking for curl-config... no
+Cannot find curl-config
+ERROR: configuration failed for package ‘RCurl’
+* removing ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15/RCurl’
+* installing *source* package ‘XML’ ...
+** package ‘XML’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking for C compiler default output file name... rm: cannot remove 'a.out.dSYM': Is a directory
+a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for sed... /bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking for xml2-config... no
+Cannot find xml2-config
+ERROR: configuration failed for package ‘XML’
+* removing ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15/XML’
+
+The downloaded source packages are in
+	‘/tmp/RtmpGDMUdG/downloaded_packages’
+Warning messages:
+1: In install.packages("XML", dependencies = TRUE) :
+  installation of package ‘RCurl’ had non-zero exit status
+2: In install.packages("XML", dependencies = TRUE) :
+  installation of package ‘XML’ had non-zero exit status
+> install.packages("xml2",dependencies=TRUE)
+Installing package(s) into ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15’
+(as ‘lib’ is unspecified)
+Warning message:
+package ‘xml2’ is not available (for R version 2.15.2) 
+> install.packages("xml2-config",dependencies=TRUE)
+Installing package(s) into ‘/home/geekypete/R/x86_64-pc-linux-gnu-library/2.15’
+(as ‘lib’ is unspecified)
+Warning message:
+package ‘xml2-config’ is not available (for R version 2.15.2) 
+> require(rPlant)
+Loading required package: rPlant
+Loading required package: rjson
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: seqinr
+Loading required package: knitcitations
+Loading required package: knitr
+Loading required package: bibtex
+> user.name <- "pl8210"
+> user.pwd <- "2_Geek_3"
+> token <- GetToken(user.name,user.pwd,api="iplant")
+> token
+[1] "06514d66fd2e56578746b68762de1a7f"
+> ListDir(user.name, token, "")
+      name                           type  
+ [1,] ".."                           "dir" 
+ [2,] "analyses"                     "dir" 
+ [3,] "cacheServiceTempDir"          "dir" 
+ [4,] "TestData"                     "dir" 
+ [5,] "DE_sample_plants.fas"         "file"
+ [6,] "ext.txt"                      "file"
+ [7,] "FastANOVA-0.0.5_linux.tar.gz" "file"
+ [8,] "genotype_file.txt"            "file"
+ [9,] "output_ld.png"                "file"
+> ListDir(user.name, token, "data")
+Error: Not Found
+> ListDir(user.name, token, "data")
+Error: Not Found
+>ListDir(user.name, token, "analyses")
+     name            type 
+[1,] ".."            "dir"
+[2,] "SyngentaPlink" "dir"
+> help(ListDir)
+> MakeDir(user.name, token, "data","")
+[1] "success"
+> ListDir(user.name, token, "data")
+     name type 
+[1,] ".." "dir"
+> ListDir(user.name, token, "data")
+     name            type 
+[1,] ".."            "dir"
+[2,] "syngenta_data" "dir"
+> help(runPlink)
+> help(runPLINK)
+> help(RunPLINK)
+> 
+
+

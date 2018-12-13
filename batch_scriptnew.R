@@ -1,6 +1,6 @@
 require(rPlant)
-user.name <- "pl8210"
-user.pwd <- "2_Geek_3"
+user.name <- "null"
+user.pwd <- "null"
 Validate(user.name, user.pwd)
 
 ListDir(user.name, token, "data/Syngenta/PEDMAP", shared.user.name="kamichels")
